@@ -2,7 +2,7 @@
   = f.error_notification
 
   .form-inputs
-    = f.input :email
+    = f.input :email, placeholder: "user@domain.com", label: false
 
   .form-actions
-    = f.button :submit
+    = f.button :submit, class: "btn btn-primary"
