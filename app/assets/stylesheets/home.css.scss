@@ -5,9 +5,20 @@
 main {
 	background: none;
 	.container { 
-		border: solid 1px;
-		.btn {
-			margin-top: 10px
+		.form {
+			width: 100%;
+			background-color: #428bca;
+			padding: 15px;
+			-webkit-border-radius: 10px;
+			-moz-border-radius: 10px;
+			border-radius: 10px;
+			.btn {
+				margin-top: 10px;
+			}
+			input#user_email {
+				width: 100%;
+				padding-left: 5px;
+			}
 		}
 	}
 }
