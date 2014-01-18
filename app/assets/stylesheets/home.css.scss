@@ -4,5 +4,10 @@
 
 main {
 	background: none;
-	.container { border: solid 1px	}
+	.container { 
+		border: solid 1px;
+		.btn {
+			margin-top: 10px
+		}
+	}
 }
