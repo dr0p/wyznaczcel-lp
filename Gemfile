@@ -13,6 +13,7 @@ gem 'haml-rails'
 gem 'simple_form'
 gem 'thin'
 gem 'newrelic_rpm'
+gem 'simple_abs'
 
 group :development do
   gem 'sqlite3'
