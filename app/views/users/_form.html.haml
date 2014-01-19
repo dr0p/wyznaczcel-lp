@@ -2,7 +2,7 @@
   = f.error_notification
 
   .form-inputs
-    = f.input :email, placeholder: "twoj@email.com", label: false
+    = f.input :email, placeholder: "Podaj Adres Email", label: false
 
   .form-actions
-    = f.button :submit, 'ZAPISZ SIĘ TERAZ!', class: "btn btn-danger"
+    = f.button :submit, 'ZAPISZ SIĘ TERAZ!', class: "#{@ab_submit_button_type == 'warning' ? 'btn btn-warning' : 'btn btn-danger'}"
