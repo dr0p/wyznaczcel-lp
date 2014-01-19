@@ -5,6 +5,7 @@
 main {
 	background: none;
 	.container { 
+		h1 { margin-top: 0; }
 		.form {
 			width: 100%;
 			background-color: #428bca;
@@ -12,12 +13,20 @@ main {
 			-webkit-border-radius: 10px;
 			-moz-border-radius: 10px;
 			border-radius: 10px;
-			.btn {
-				margin-top: 10px;
+
+			.form-actions {
+				width: 50%;
+				margin-left: auto;
+				margin-right: auto;
 			}
+
 			input#user_email {
 				width: 100%;
 				padding-left: 5px;
+			}
+
+			.btn {
+				margin-top: 10px;
 			}
 		}
 	}
