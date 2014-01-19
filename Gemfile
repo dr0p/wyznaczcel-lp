@@ -12,6 +12,8 @@ gem 'figaro'
 gem 'haml-rails'
 gem 'simple_form'
 gem 'thin'
+gem 'newrelic_rpm'
+
 group :development do
   gem 'sqlite3'
   gem 'better_errors'
